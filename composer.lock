@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c27bd4bdc1a852d6145c8c3c3b378d8b",
+    "content-hash": "ed78e3920193d83ab0a8ab120c949ed2",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -5357,21 +5357,23 @@
         },
         {
             "name": "codeception/module-db",
-            "version": "1.2.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/module-db.git",
-                "reference": "04c3e66fbd3a3ced17fcccc49627f6393a97b04b"
+                "reference": "024505fff8faf6825478003151ad97c0fe46a942"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/module-db/zipball/04c3e66fbd3a3ced17fcccc49627f6393a97b04b",
-                "reference": "04c3e66fbd3a3ced17fcccc49627f6393a97b04b",
+                "url": "https://api.github.com/repos/Codeception/module-db/zipball/024505fff8faf6825478003151ad97c0fe46a942",
+                "reference": "024505fff8faf6825478003151ad97c0fe46a942",
                 "shasum": ""
             },
             "require": {
                 "codeception/codeception": "*@dev",
-                "php": ">=5.6.0 <9.0"
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "php": "^7.4 | ^8.0"
             },
             "conflict": {
                 "codeception/codeception": "<4.0"
@@ -5395,7 +5397,7 @@
                 }
             ],
             "description": "DB module for Codeception",
-            "homepage": "http://codeception.com/",
+            "homepage": "https://codeception.com/",
             "keywords": [
                 "codeception",
                 "database-testing",
@@ -5403,9 +5405,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeception/module-db/issues",
-                "source": "https://github.com/Codeception/module-db/tree/1.2.0"
+                "source": "https://github.com/Codeception/module-db/tree/2.0.2"
             },
-            "time": "2022-03-05T19:38:40+00:00"
+            "time": "2022-03-05T19:30:01+00:00"
         },
         {
             "name": "codeception/module-phpbrowser",
@@ -9465,5 +9467,5 @@
         "ext-zip": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
